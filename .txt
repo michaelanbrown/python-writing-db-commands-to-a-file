@@ -3,3 +3,5 @@ CREATE TABLE cats (
     name TEXT,
     age INTEGER
 );
+
+ALTER TABLE cats ADD COLUMN breed TEXT;
