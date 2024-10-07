@@ -5,3 +5,5 @@ CREATE TABLE cats (
 );
 
 ALTER TABLE cats ADD COLUMN breed TEXT;
+
+DROP TABLE cats;
